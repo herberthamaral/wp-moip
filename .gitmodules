@@ -1,0 +1,3 @@
+[submodule "moip-php"]
+	path = moip-php
+	url = git@github.com:moiplabs/moip-php.git
