@@ -12,6 +12,7 @@ require_once(WP_PLUGIN_DIR . "/wp-moip/settings.php");
 require_once(WP_PLUGIN_DIR . "/wp-moip/transactions.php");
 require_once(WP_PLUGIN_DIR . "/wp-moip/wp_shopping_cart.php");
 require_once(WP_PLUGIN_DIR . "/wp-moip/install-script.php");
+require_once(WP_PLUGIN_DIR . "/wp-moip/status.php");
 
 register_activation_hook(__FILE__, 'mn_install');
 register_deactivation_hook(__FILE__, 'mn_uninstall');
@@ -35,6 +36,7 @@ register_deactivation_hook(__FILE__, 'mn_uninstall');
             add_submenu_page(__FILE__, 'Shopping Cart', 'Shopping Cart', 8, 'wp_shopping_cart', 'ps_wp_cart_options');
             add_submenu_page(__FILE__, 'General Settings', 'Settings', 8, 'settings', 'mn_settings');
             add_submenu_page(__FILE__, 'Transactions List', 'Transactions', 8, 'transactions', 'mn_show_table');
+            add_submenu_page(__FILE__, 'MoIP Status', 'Status', 8, 'status', 'mn_status');
          }
     }
             
