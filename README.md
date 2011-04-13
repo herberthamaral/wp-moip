@@ -1,7 +1,7 @@
 WP-MoIP -- Integração do Wordpress com o MoIP via API
 ======================================================
 
-Plugin desenvolvido em parceria por [Herberth Amaral](http://github.com/herberthamaral/) e [Carlos Filho](http://github.com/carlosfilho88) para o [MoIP Labs](http://labs.moip.com.br/).
+Plugin desenvolvido em parceria por   [Carlos Filho](http://github.com/carlosfilho88)  e [Herberth Amaral](http://github.com/herberthamaral/) para o [MoIP Labs](http://labs.moip.com.br/).
 
 Instalação
 ----------
